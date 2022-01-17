@@ -1,0 +1,111 @@
+/* Inizio regole di resset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Fine regole di resset */
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/* Inizio main */
+main{  
+    display: flex;
+    flex-direction: row;     
+    width: 100%;
+    height: 100vh;
+    border: 2px solid red;
+}
+/* Fine main */
+
+/* Inizio aside */
+aside{
+    width: 10%;
+    height: 100%;
+    border: 2px solid green;
+}
+/* Fine aside */
+
+/* Inizio section */
+section{
+    width: 90%;
+    height: 100%;
+    border: 2px solid blue;
+}
+/* Fine section */
+
+/* Inizio footer */
+footer{    
+    width: 100%;
+    height: 10%;
+    border: 2px solid orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Inizio left bar */
+.left-bar{
+    width: 15%;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.brano-nome{
+    width: 40%;
+    height: 80%;    
+    border: 1px solid violet;
+}
+.cartella-brani-preferiti{
+    width: 40%;
+    height: 80%;
+    padding: 5px;
+    border: 1px solid violet;
+}
+/* Fine left bar */
+
+/* Inizio center bar */
+.center-bar{
+    width: 30%;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.play-icon{
+    width: 50%;
+    height: 45%;
+    border: 1px solid violet;
+}
+.time-bar{
+    width: 90%;
+    height: 45%;
+    border: 1px solid violet;
+}
+/* Fine center bar */
+
+/* Inizio right bar */
+.right-bar{
+    width: 15%;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.volume{
+    width: 80%;
+    height: 80%;    
+    border: 1px solid violet;
+}
+/* Fine right bar */
+/* Fine footer */
