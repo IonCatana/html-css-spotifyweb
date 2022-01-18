@@ -13,25 +13,29 @@
 </head>
 
 <body>
-    main
     <!-- Inizio main -->
     <main>
         <!-- Inizio aside -->
         <aside>
+            <!-- Inizio logo -->
             <div class="logo">
-
+                <img src="img/logo.svg" alt="">
             </div>
+            <!-- Fine logo -->
+            <!-- Inizio home aside -->
             <div class="home">
                 <ul>
-                    <li> <a href="#">Home</a></li>
-                    <li> <a href="#">Cerca</a></li>
-                    <li> <a href="#">La tua libreria</a></li>
+                    <li> <a href="#"><i class="fas fa-home"></i> <span>Home</span> </a></li>
+                    <li> <a href="#"><i class="fas fa-search"></i> <span>Cerca</span> </a></li>
+                    <li> <a href="#"><i class="fas fa-book"></i> <span>La tua libreria</span> </a></li>
                 </ul>
             </div>
+            <!-- Fine home aside -->
+            <!-- Inizio playlist aside -->
             <div class="play-list">
                 <h6>PLAYLIST</h6>
                 <div class="crea-playlist">
-                    + crea playlist
+                    <li><a href="#"><i class="fas fa-plus-square"></i> <span>Crea playlist</span></a></li>
                 </div>
                 <div class="nome-playlist">
                     <ul>
@@ -45,28 +49,39 @@
                     </ul>
                 </div>
             </div>
+            <!-- Fine playlist aside -->
+            <!-- inizio aside footer -->
             <div class="aside-footer">
                 <div class="download">
-                    Installa app
+                    <div class="img-download">
+                        <img src="img/download.svg" alt="">
+                    </div>
+                    <a href="#">Installa app</a>
                 </div>
+                <div class="dividere-download-profile"></div>
                 <div class="profile">
-                    Profile John Doe
+                    <div class="img-profile">
+                        <img src="img/profile.svg" alt="">
+                    </div>
+                    <a href="#">John Doe</a>
                 </div>
             </div>
-
+            <!-- Fine aside footer -->
         </aside>
         <!-- Fine aside -->
 
         <!-- Inizio section -->
         <section>
+            <!-- Inizio upgrade -->
             <div class="upgrade">
                 <a href="#">EFFETUA L'UPGRADE</a>
             </div>
+            <!-- Fine upgrade -->
+            <!-- Inizio section main container -->
             <div class="section-main-container">
-                section main container
                 <div class="header-section-main">
                     <ul>
-                        <li><a href="#">IN EVIDENZA</a></li>
+                        <li><a href="#">IN E<span>VIDE</span>NZA</a></li>
                         <li><a href="#">PODCAST</a></li>
                         <li><a href="#">CLASSIFICHE</a></li>
                         <li><a href="#">GENERI E MOOD</a></li>
@@ -74,15 +89,14 @@
                         <li><a href="#">SCOPRI</a></li>
                     </ul>
                 </div>
-                <h5>Recently played</h5>
-
+                <div class="testo-cards">
+                    <h4>Recently played</h4>
+                </div>
                 <div class="recently-cards">
-                    <div>
-                        card1
+                    <div class="card-1">
+
                     </div>
-                    <div>
-                        card2
-                    </div>
+
                     <div>
                         card3
                     </div>
@@ -96,7 +110,25 @@
                         card6
                     </div>
                 </div>
+                <div class="testo-cards">
+                    <h4>Creato per John Doe</h4>
+                    <p>Più ascolti, più accurati saranno i suggerimenti.</p>
+                </div>
                 <div class="creato-cards">
+
+                    <div>
+                        card1
+                    </div>
+                    <div>
+                        card2
+                    </div>
+                </div>
+                <div class="testo-cards">
+                    <h4>Artisti più popolari</h4>
+                    <p>Più ascolti, più accurati saranno i suggerimenti.</p>
+                </div>
+                <div class="artisti-cards">
+
                     <div>
                         card1
                     </div>
@@ -105,30 +137,58 @@
                     </div>
                 </div>
             </div>
+            <!-- Fine section main container -->
         </section>
         <!-- Fine section -->
     </main>
-    <!-- Fine main -->    
+    <!-- Fine main -->
     <!-- Inizio footer -->
     <footer>
         <!-- Inizio left bar -->
         <div class="left-bar">
+            <div class="brano-img">
+                <img src="img/sinister.jpeg" alt="">
+            </div>
+            <!-- Inizio brano nome  -->
             <div class="brano-nome">
-                brano nome
+                <div>
+                    <a href="#">
+                        <h5>Sinister</h5>
+                        <span>Brano Nome</span>
+                    </a>
+                </div>                
+                <div class="cartella-brani-preferiti">
+                    <a href="#">
+                        <i class="far fa-heart"></i>
+                        <i class="far fa-folder"></i>
+                    </a>
+                </div>
             </div>
-            <div class="cartella-brani-preferiti">
-                cartella brani preferiti
-            </div>
+            <!-- Fine brano nome -->
         </div>
         <!-- Fine left bar -->
 
         <!-- Inizio center bar -->
         <div class="center-bar">
             <div class="play-icon">
-                play icon
+                <ul>
+                    <li><i class="fas fa-random"></i></li>
+                    <li><i class="fas fa-step-backward"></i></li>
+                    <li><i class="far fa-play-circle"></i></li>
+                    <li><i class="fas fa-step-forward"></i></li>
+                    <li><i class="fas fa-redo"></i></li>
+                </ul>
             </div>
             <div class="time-bar">
-                time bar
+                <div class="time-seconds">
+                    0:25
+                </div>
+                <div class="bar-time">
+                    
+                </div>
+                <div class="time-seconds">
+                    4:35
+                </div>
             </div>
         </div>
         <!-- Fine center bar -->
