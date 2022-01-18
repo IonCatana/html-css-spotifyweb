@@ -1,0 +1,53 @@
+/* Inizio hover color white*/
+.home ul li a:hover,
+.home i:hover,
+.crea-playlist a:hover,
+.nome-playlist a:hover,
+.download a:hover,
+.header-section-main li a:hover,
+.brano-nome a span:hover,
+.titolo-sotto-img-card span:hover,
+.cartella-brani-preferiti i:hover {
+    color: white;
+}
+
+/* Fine hover color white*/
+
+/* Inizio upgrade premium */
+.premium:hover {
+    transform: scale(1.1);
+}
+
+/* Fine upgrade premium */
+
+/* Inizio hover underline */
+.titolo-sotto-img-card span:hover,
+.brano-nome span:hover {
+    text-decoration: underline;
+}
+
+/* Fine hover underline */
+
+/* Inizio img card overlay */
+.img-card:hover .overlay{
+    opacity: 1;
+}
+/* Fine img card overlay */
+
+/* Inizio footer center bar play icon */
+
+.play-icon .fa-play-circle:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.bar-time:hover .bar-time-progression {
+    background-color: lime;
+}
+
+.bar-time:hover .ball {
+    opacity: 1;
+}
+
+/* Fine footer center bar play icon */
