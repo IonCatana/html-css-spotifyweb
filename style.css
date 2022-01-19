@@ -226,11 +226,15 @@ section{
 /* Inizio section upgrade */
 .upgrade{    
     width: 100%;   
-    background-color: #080B12;
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
 .premium{
     padding: 20px;   
@@ -251,7 +255,8 @@ section{
     flex-direction: column;
     flex-grow: 1;
     background-color: #141922;
-    padding-left: 20px;    
+    padding-left: 20px;  
+    padding-top: 70px;  
 }
 /* Inizio header section main */
 .header-section-main{
@@ -365,7 +370,7 @@ section{
 /* Fine section */
 
 /* Inizio footer */
-footer{       
+footer{          
     width: 100%;
     height: 80px;
     background-color: #282828;
@@ -373,6 +378,9 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 /* Inizio left bar */
 .left-bar{
@@ -491,29 +499,25 @@ footer{
 /* Fine center bar */
 
 /* Inizio right bar */
-.right-bar{
-    width: 20%;
+.right-bar{   
+    flex-basis: 200px; 
     height: 70px;   
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: row;    
     align-items: center;
 }
 .volume{
-    width: 100%;
-    height: 80%;        
+    flex-grow: 1;         
     display: flex;
-    justify-content: center;
-    justify-content: space-around;
+    gap: 10px;
+    justify-content: center;    
     align-items: center;
 }
-.volume ul{
-    padding-left: 40px;
-    display: flex;    
-    gap: 20px;
+.volume ul{   
+    display: contents;
 }
 .volume-1{
-    width: 40%;
+    flex-grow: 1;
     height: 5px;
     background-color:  #5A5A5A;
     border-radius: 20px;
