@@ -346,6 +346,10 @@ section{
     flex-wrap: wrap;  
     gap: 15px;      
 }
+.artisti-cards .img-card{
+    border-radius: 50%;   
+    overflow: hidden;
+}
 /* Fine artisti cards */
 /* Fine section main container */
 
