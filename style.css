@@ -48,7 +48,7 @@ main{
     display: flex;
     flex-direction: row;     
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 80px);
     
 }
 /* Fine main */
@@ -65,8 +65,8 @@ aside{
 /* Inizio logo */
 .logo{
     padding-left: 22px;
-    width: 75%;
-    height: 9%;    
+    width: 120px;
+    height: 60px;    
     display: flex;
     flex-direction: row;    
 }
@@ -425,6 +425,7 @@ footer{
 
 /* Inizio center bar */
 .center-bar{
+    width: 100%;
     max-width: 400px;  
     height: 70px;    
     display: flex;
@@ -432,8 +433,7 @@ footer{
     align-items: center;
 }
 /* Inizio play icon container */
-.play-icon{    
-    height: 60%;    
+.play-icon{         
     display: flex;     
     justify-content: center;
     align-items: center;     
@@ -457,14 +457,13 @@ footer{
 /* Fine play icon container */
 /* Inizio time bar container */
 .time-bar{
-    width: 90%;
-    height: 40%;    
+    width: 100%;        
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .bar-time{
-    width: 40vw;
+    flex-grow: 1;
     height: 5px;
     background-color:  #5A5A5A;
     border-radius: 20px;
