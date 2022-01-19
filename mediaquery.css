@@ -1,0 +1,45 @@
+@media screen and (max-width:460px) {
+    .play-list, 
+    .home span, 
+    .download a, 
+    .profile a,
+    .dividere-download-profile,
+    .logo img {
+        display: none;
+    }
+    .home{
+        flex-grow: 1;  
+        padding: 0;      
+    }
+    aside{
+        width: 50px;
+        position: relative;
+        
+    }
+    .home a, .download, .profile{
+        padding-left: 10px;
+    }
+    .home li:nth-child(1){
+        border: none;
+    }
+    .header-section-main ul li a{
+        font-size: 9px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo{
+        background-image: url(img/logo-small.svg);
+        object-fit: contain;
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 24px;  
+        position: relative;
+        top: 2px;   
+        left: 10px;  
+        margin-bottom: 10px;           
+    }
+    .premium a{
+        font-size: 9px;
+    }
+    
+}
