@@ -15,7 +15,7 @@
 
 /* Inizio upgrade premium */
 .premium:hover {
-    transform: scale(1.1);
+    transform: scale(1.1);    
 }
 
 /* Fine upgrade premium */
@@ -23,25 +23,46 @@
 /* Inizio hover underline */
 .titolo-sotto-img-card span:hover,
 .brano-nome span:hover {
-    text-decoration: underline;
+    text-decoration: underline;    
 }
 
 /* Fine hover underline */
 
 /* Inizio img card overlay */
-.img-card:hover .overlay{
+.img-card:hover .overlay{    
     opacity: 1;
 }
 /* Fine img card overlay */
 
+/* Inizio titolo cards */
+.titolo-cards p:hover{
+    transform: skewX(-30deg);
+    
+}
+/* Fine titolo cards */
+/* Inizio card contain */
+.card-contain:hover{
+    animation: rotateY 1.5s       
+}
+@keyframes rotateY {    
+    10% {transform: rotateY(0deg)} 
+    100% {transform: rotateY(360deg)}        
+}
+/* Fine card contain */
+
 /* Inizio footer center bar play icon */
 
 .play-icon .fa-play-circle:hover {
+    animation: rotateZ 2s ;
     -ms-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
-
+@keyframes rotateZ {    
+    10% {transform: rotateZ(0deg)} 
+    100% {transform: rotateZ(360deg)}
+        
+}
 .bar-time:hover .bar-time-progression {
     background-color: lime;
 }
