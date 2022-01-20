@@ -1,4 +1,4 @@
-
+/* meadia query 460px */
 @media screen and (max-width:460px) {
     .play-list, 
     .home span, 
@@ -28,7 +28,12 @@
         display: flex;
         flex-wrap: wrap;
     }
-    
+    .center-bar {
+        width: 70%;
+    }
+    .play-icon ul {
+        gap: 10px;
+    }
     .logo{
         background-image: url(img/logo-small.svg);
         object-fit: contain;
@@ -43,5 +48,33 @@
     .premium a{
         font-size: 9px;
     }
+    .recently-cards {
+        gap: 5px;
+        
+    }
     
 }
+/* media query width 768px */
+@media screen and (max-width:768px){
+    
+    .recently-cards .card-contain:nth-child(4),
+    .recently-cards .card-contain:nth-child(3){
+        display: none;
+    }
+}
+/* media query width 1024px */
+@media screen and (max-width:1024px){
+    .recently-cards .card-contain:nth-child(6),
+    .recently-cards .card-contain:nth-child(5){
+        display: none;
+    }
+}
+
+/* media query height 350px*/
+@media screen and (max-height: 350px){
+    .upgrade{
+        display: none;
+        background-color: none;
+    }
+}
+    
